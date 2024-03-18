@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
 
-
-
 const Navbar = () => {
 
     const [openMenu, setOpenMenu] = useState(false);
@@ -18,12 +16,12 @@ const Navbar = () => {
 
             <nav className="nav-wrapper">
                 <div className="nav-content"> 
-                    <ul>
-                        <li>
-                            <a className="menu-title">
+                    <div>
+                        <a className="menu-title">
                                 Jason's Portfolio
                             </a>
-                        </li>
+                    </div>
+                    <ul>
                         <li>
                             <a className="menu-item">
                                 About Me
@@ -47,7 +45,7 @@ const Navbar = () => {
 
                     <button className="menu-btn" onClick={toggleMenu}>
                         <span>
-                            {openMenu ? "X" : <i className="fa-solid fa-bars"></i>}
+                            {openMenu ? "X" : <i className="fa-solid fa-bars"></i> }
                         </span>
                     </button>
                 </div>
