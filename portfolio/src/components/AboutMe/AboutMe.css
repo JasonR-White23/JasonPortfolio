@@ -1,15 +1,28 @@
 
-.about-title {
+.about-wrapper {
 
     color: #fff;
     text-align: center;
     padding: 5%;
-    margin: 0;
     background-color: #0c0e1b;
     position: relative;
 }
 
-.about-title hr {
+.about-title {
+
+    font-size: xxx-large;
+    color: #fff;
+    text-align: center;
+    background-color: #0c0e1b;
+    position: relative;
+}
+
+.about-wrapper hr {
     
-    width: 45%;
+    width: 35%;
+}
+
+.about-content {
+
+    padding: 5%;
 }
