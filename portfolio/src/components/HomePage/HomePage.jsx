@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import AboutMe from '../AboutMe/AboutMe'
+import Education from '../Education/Education'
 
 
 const HomePage = () => {
@@ -8,7 +9,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <AboutMe />
-      
+      <Education />
     </>
   )
 }
