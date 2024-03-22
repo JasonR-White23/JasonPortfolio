@@ -1,0 +1,34 @@
+
+.skills-wrapper {
+    color: #fff;
+    padding: 5%;
+    background-color: #0c0e1b;
+    position: relative;
+    text-align: center;
+}
+
+.skills-title {
+    font-size: xxx-large;
+    color: #fff;
+    background-color: #0c0e1b;
+    position: relative;
+    text-align: center;
+}
+
+.skills-wrapper hr {
+    
+    width: 35%;
+}
+
+.skills-list-container {
+    display: inline-block;  
+    text-align: left;
+    
+}
+.skills-list-container ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+
