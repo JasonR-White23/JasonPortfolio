@@ -1,0 +1,17 @@
+
+.contact-container {
+
+    margin: 4% 0%;
+    position: relative; 
+}
+
+.contact-container h5 {
+
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.contact-content {
+    display: flex;
+}
