@@ -11,7 +11,7 @@
     position: relative; 
 }
 
-.contact-container h5 {
+.contact-container h3 {
 
     font-size: large;
     font-weight: 600;
@@ -19,7 +19,9 @@
 }
 
 .contact-content {
+
+    margin-left: 34%;
     display: flex;
     gap: 3rem;
-   
+    
 }

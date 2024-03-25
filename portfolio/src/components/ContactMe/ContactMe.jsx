@@ -7,9 +7,9 @@ const ContactMe = () => {
     <>
         <div className="contact-wrapper">
             <section className="contact-container">
-                <h5>
+                <h3>
                     Contact Me
-                </h5>
+                </h3>
                 <div className="contact-content">
                     <div style={{ flex: 1 }}>
                         <ContactInfoCard
