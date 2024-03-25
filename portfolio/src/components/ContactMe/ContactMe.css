@@ -1,6 +1,12 @@
 
+.contact-wrapper {
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    background-color: #0c0e1b;
+    position: relative;
+}
 .contact-container {
-
     margin: 4% 0%;
     position: relative; 
 }
@@ -14,4 +20,6 @@
 
 .contact-content {
     display: flex;
+    gap: 3rem;
+   
 }
