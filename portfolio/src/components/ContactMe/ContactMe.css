@@ -6,22 +6,32 @@
     background-color: #0c0e1b;
     position: relative;
 }
-.contact-container {
-    margin: 4% 0%;
-    position: relative; 
+
+.contact-wrapper hr {
+    max-width: 20%;
 }
 
-.contact-container h3 {
+.contact-container {
+    margin: 4% 0%;
+    position: relative;
+    align-content: center; 
+}
 
-    font-size: large;
+.contact-container h2 {
+
+    font-size: x-large;
     font-weight: 600;
     margin-bottom: 5%;
 }
 
 .contact-content {
 
-    margin-left: 34%;
+    width: 60%;
+    margin-left: 35% ;
     display: flex;
     gap: 3rem;
     
+}
+.contact-form {
+   margin-left: 30%;
 }

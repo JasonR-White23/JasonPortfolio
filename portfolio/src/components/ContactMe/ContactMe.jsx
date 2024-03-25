@@ -1,15 +1,18 @@
 import React from 'react'
 import './ContactMe.css'
 import ContactInfoCard from './ContactInfoCard/ContactInfoCard'
+import ContactForm from './ContactForm/ContactForm'
+
 
 const ContactMe = () => {
   return (
     <>
         <div className="contact-wrapper">
             <section className="contact-container">
-                <h3>
+                <h2>
                     Contact Me
-                </h3>
+                    <hr />
+                </h2>
                 <div className="contact-content">
                     <div style={{ flex: 1 }}>
                         <ContactInfoCard
@@ -23,10 +26,16 @@ const ContactMe = () => {
                         />
                     </div>
                     <div style={{ flex: 1 }}>
-                        
+
                     </div>
+                    
+                
+                </div>
+                <div style={{ flex: 1 }} className="contact-form">
+                    <ContactForm />
                 </div>
             </section>
+            
         </div>
     </>
   )
