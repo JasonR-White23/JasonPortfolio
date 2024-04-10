@@ -28,7 +28,15 @@
     object-fit: contain;
 }
 
-.contact-details-card p {
+.contact-details-card a {
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+.contact-details-card a:hover {
+    color: #0472d8;
+}
+
+.contact-details-card a::after {
+    color: #3d3d3d;
 }

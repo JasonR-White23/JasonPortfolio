@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -17,25 +18,25 @@ const Navbar = () => {
             <nav className="nav-wrapper">
                 <div className="nav-content"> 
                     <div>
-                        <a className="menu-title">
+                        <NavLink to="/" className="menu-title">
                             Jason's Portfolio
-                        </a>
+                        </NavLink>
                     </div>
                     <ul>
                         <li>
-                            <a className="menu-item">
+                            <NavLink to="/aboutme" className="menu-item">
                                 About Me
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item">
+                            <NavLink to="/education" className="menu-item">
                                 Education
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item">
+                            <NavLink to="/skills" className="menu-item">
                                 Skills
-                            </a>
+                            </NavLink>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>

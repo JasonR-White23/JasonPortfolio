@@ -1,5 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import './MobileNav.css';
+import Skills from "../../Skills/Skills";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
     return (
@@ -11,24 +13,24 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
                 <div className="mobile-menu-container">
                     <ul>
                         <li>
-                            <a className="menu-title">
+                            <NavLink to="/" className="menu-title">
                                 Jason's Portfolio
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item">
+                            <NavLink to="/aboutme" className="menu-item">
                                 About Me
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item">
+                            <NavLink to="/education" className="menu-item">
                                 Education
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item">
+                            <NavLink to="/skills" className="menu-item">
                                 Skills
-                            </a>
+                            </NavLink>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>

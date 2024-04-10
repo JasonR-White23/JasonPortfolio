@@ -8,9 +8,9 @@ const ContactInfoCard = ({ iconUrl, text }) => {
             <img src={iconUrl} alt={text} ></img>
         </div>
 
-        <p>
+        <a href={text}>
             {text}
-        </p>
+        </a>
     </div>
   )
 }

@@ -15,6 +15,7 @@ const ContactMe = () => {
                 </h2>
                 <div className="contact-content">
                     <div style={{ flex: 1 }}>
+
                         <ContactInfoCard
                             iconUrl="/assets/images/email-icon.png"
                             text="jasonshane1998@gmail.com"
@@ -22,8 +23,9 @@ const ContactMe = () => {
                         
                         <ContactInfoCard
                             iconUrl="/assets/images/linkedin-icon.png"
-                            text="https://www.linkedin.com/in/jason-white23"
+                            text="https://www.linkedin.com/in/jason-white23"   
                         />
+                        
                     </div>
                     <div style={{ flex: 1 }}>
                         <ContactInfoCard 
