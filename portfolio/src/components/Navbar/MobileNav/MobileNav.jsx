@@ -10,7 +10,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             >
                 <div className="mobile-menu-container">
                     <ul>
-                        <li >
+                        <li>
                             <a className="menu-title">
                                 Jason's Portfolio
                             </a>
