@@ -23,6 +23,22 @@
 }
 
 .about-content {
-
+    text-align: left;
+    width: 60%;
     padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-content a {
+    color: white;
+}
+
+.about-content a::after {
+    color: grey;
+}
+
+.about-content blockquote {
+    font-weight: 500;
+    font-style: oblique;
 }
