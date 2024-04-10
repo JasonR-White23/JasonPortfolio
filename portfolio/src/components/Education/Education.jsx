@@ -42,19 +42,25 @@ const Education = () => {
           <div className="education-content">
             <ul>
               <li>
-                Introduction to HTML 
+                <a href='/assets/images/certificates/IntroductiontoHTML.png' >
+                  Introduction to HTML
+                </a>
                 <p>
                   sololearn - 2023
                 </p>
               </li>
               <li>
-                Introduction to SQL
+                <a href='/assets/images/certificates/IntroductiontoSQL.png'>
+                  Introduction to SQL
+                </a>
                 <p>
                   sololearn - 2023
                 </p>
               </li>
               <li>
-                SQL Intermediate 
+                <a href='/assets/images/certificates/SQLIntermediaate.png'>
+                  SQL Intermediate 
+                </a>
                 <p>
                   sololearn - 2023
                 </p>
