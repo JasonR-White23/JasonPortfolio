@@ -26,10 +26,11 @@ const ContactMe = () => {
                         />
                     </div>
                     <div style={{ flex: 1 }}>
-
+                        <ContactInfoCard 
+                            iconUrl="/assets/images/github-icon.png"
+                            text="https://github.com/JasonR-White23"
+                        />
                     </div>
-                    
-                
                 </div>
                 <div style={{ flex: 1 }} className="contact-form">
                     <ContactForm />
