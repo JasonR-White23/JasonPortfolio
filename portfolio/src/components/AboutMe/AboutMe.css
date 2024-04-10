@@ -18,7 +18,6 @@
 }
 
 .about-wrapper hr {
-    
     width: 30%;
 }
 
@@ -44,7 +43,8 @@
 }
 
 .picture {
-    padding-top: 50px;
-    width: 400px;
-    height: 500px;
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+    border: 4px solid black;
 }

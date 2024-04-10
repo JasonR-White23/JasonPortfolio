@@ -12,6 +12,7 @@ const AboutMe = () => {
 
           <img src='/assets/images/jason-01.jpeg' alt='A photo of myself on a restaurant patio' class="picture"/>
           <div className="about-content">
+          
             <p>
               My name is Jason White, I am an only child born in a small town in Alberta, Canada.
             </p>
