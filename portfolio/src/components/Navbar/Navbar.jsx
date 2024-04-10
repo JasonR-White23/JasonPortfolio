@@ -18,8 +18,8 @@ const Navbar = () => {
                 <div className="nav-content"> 
                     <div>
                         <a className="menu-title">
-                                Jason's Portfolio
-                            </a>
+                            Jason's Portfolio
+                        </a>
                     </div>
                     <ul>
                         <li>

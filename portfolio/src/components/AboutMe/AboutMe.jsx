@@ -20,12 +20,10 @@ const AboutMe = () => {
               our two wonderful dogs, play video games, and read books. My favorite author would have to be 
               Stephen King, I appreciate how he can write in so many different perspectives, intertwining each 
               perspective with each other perfectly. My favorite book from Stephen King is "<a href='https://en.wikipedia.org/wiki/The_Institute_(King_novel)'>The Institute</a>". 
-            </p>
-            <p>
-              <blockquote>
-                "The scariest moment is always just before you start" - Stephen King
-              </blockquote>
-            </p>
+            </p> 
+            <blockquote>
+              "The scariest moment is always just before you start" - Stephen King
+            </blockquote>
           </div>
         </div>
 
