@@ -1,0 +1,11 @@
+.portfolio-title {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.portfolio-title hr {
+    width: 45%;
+}
