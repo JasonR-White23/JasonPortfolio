@@ -42,7 +42,7 @@ const Education = () => {
           <div className="education-content">
             <ul>
               <li>
-                <a href='/assets/images/certificates/IntroductiontoHTML.png' >
+                <a href='/assets/images/certificates/IntroductiontoHTML.png' target='_blank'>
                   Introduction to HTML
                 </a>
                 <p>
@@ -50,7 +50,7 @@ const Education = () => {
                 </p>
               </li>
               <li>
-                <a href='/assets/images/certificates/IntroductiontoSQL.png'>
+                <a href='/assets/images/certificates/IntroductiontoSQL.png' target='_blank'>
                   Introduction to SQL
                 </a>
                 <p>
@@ -58,7 +58,7 @@ const Education = () => {
                 </p>
               </li>
               <li>
-                <a href='/assets/images/certificates/SQLIntermediaate.png'>
+                <a href='/assets/images/certificates/SQLIntermediate.png' target='_blank'>
                   SQL Intermediate 
                 </a>
                 <p>
