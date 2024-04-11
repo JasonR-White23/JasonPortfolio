@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
 import AboutMe from "../AboutMe/AboutMe";
@@ -17,31 +18,33 @@ const Navbar = () => {
 
             <nav className="nav-wrapper">
                 <div className="nav-content"> 
-                <div>
-                        <a className="menu-title" href="/">
-                            Jason's Portfolio
-                        </a>
+                    <div>
+                        <NavLink to="/" className="menu-title">
+                                Jason's Portfolio
+                            </NavLink>
                     </div>
                     <ul>
                         <li>
-                            <a className="menu-item" href="/aboutme">
+                            <NavLink to="/aboutme" className="menu-item">
                                 About Me
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item" href="/education">
+                            <NavLink to="/education" className="menu-item">
                                 Education
-                            </a>
+                            </NavLink>
                         </li>
                         <li>
-                            <a className="menu-item" href="skills">
+                            <NavLink to="/skills" className="menu-item">
                                 Skills
-                            </a>
+                            </NavLink>
                         </li>
 
-                        <button className="contact-btn" onClick={() => {}}>
-                            Contact Me!
-                        </button>
+                        <Link to="/contactme" className="link">
+                            <button className="contact-btn">
+                                Contact Me!
+                            </button>
+                        </Link>
                     </ul>
 
                     <button className="menu-btn" onClick={toggleMenu}>

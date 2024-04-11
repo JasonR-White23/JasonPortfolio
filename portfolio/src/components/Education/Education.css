@@ -1,6 +1,7 @@
 
 .education-wrapper {
-
+    width: auto;
+    height: 100vh;
     color: #fff;
     text-align: center;
     padding: 5%;

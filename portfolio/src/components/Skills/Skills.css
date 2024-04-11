@@ -1,5 +1,6 @@
 
 .skills-wrapper {
+    height: 100vh;
     color: #fff;
     padding: 5%;
     background-color: #0c0e1b;
@@ -28,6 +29,15 @@
 .skills-list-container ul {
     display: inline-block;
     list-style-type: none;
+}
+
+@media (max-width: 769px) {
+
+    .skills-list-container {
+        display: block;
+        margin-left: 25%;
+        margin-right: auto;
+    }
 }
 
 
