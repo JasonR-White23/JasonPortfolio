@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
-import { NavLink } from "react-router-dom";
+import AboutMe from "../AboutMe/AboutMe";
 
 const Navbar = () => {
 
@@ -17,26 +17,26 @@ const Navbar = () => {
 
             <nav className="nav-wrapper">
                 <div className="nav-content"> 
-                    <div>
-                        <NavLink to="/" className="menu-title">
+                <div>
+                        <a className="menu-title" href="/">
                             Jason's Portfolio
-                        </NavLink>
+                        </a>
                     </div>
                     <ul>
                         <li>
-                            <NavLink to="/aboutme" className="menu-item">
+                            <a className="menu-item" href="/aboutme">
                                 About Me
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink to="/education" className="menu-item">
+                            <a className="menu-item" href="/education">
                                 Education
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink to="/skills" className="menu-item">
+                            <a className="menu-item" href="skills">
                                 Skills
-                            </NavLink>
+                            </a>
                         </li>
 
                         <button className="contact-btn" onClick={() => {}}>
