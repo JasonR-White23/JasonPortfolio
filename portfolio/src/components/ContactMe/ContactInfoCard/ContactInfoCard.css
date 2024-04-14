@@ -1,5 +1,6 @@
 
 .contact-details-card {
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +8,7 @@
     background-color: #0c0e1b;
     border-radius: 0.65rem;
     border: 1px solid #0472d8;
-    padding: 1.5rem;
+    padding: 1.7rem;
     margin-bottom: 2rem;
 }
 
