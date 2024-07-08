@@ -65,6 +65,14 @@ const Education = () => {
                   sololearn - 2023
                 </p>
               </li>
+              <li>
+                <a href='/assets/images/certificates/ResponsiveWebDesign.png' target='_blank'>
+                  Responsive Web Design
+                </a>
+                <p>
+                  freeCodeCamp - 2024
+                </p>
+              </li>
             </ul>
           </div>
       </div>
