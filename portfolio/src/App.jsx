@@ -6,7 +6,7 @@ import Education from './components/Education/Education';
 import Navbar from './components/Navbar/Navbar';
 import Skills from './components/Skills/Skills';
 import ContactMe from './components/ContactMe/ContactMe';
-
+import './App.css';
 
 const App = () => {
   return (
