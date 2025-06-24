@@ -73,6 +73,14 @@ const Education = () => {
                   freeCodeCamp - 2024
                 </p>
               </li>
+              <li>
+                <a href='/assets/images/certificates/IntroductiontoJava.jpg' target='_blank'>
+                  Introduction to Java
+                </a>
+                <p>
+                  sololearn - 2025
+                </p>
+              </li>
             </ul>
           </div>
       </div>
