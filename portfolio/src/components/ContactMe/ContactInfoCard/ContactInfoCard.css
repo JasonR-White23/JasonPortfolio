@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0c0e1b;
+    background: linear-gradient(#0c0e1b, black);
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.4);
     border-radius: 0.65rem;
     border: 1px solid #0472d8;
     padding: 1.7rem;
@@ -19,7 +20,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
-    background-color: #0c0e1b;
+    background: linear-gradient(#0c0e1b, black);
 }
 
 .icon img {
