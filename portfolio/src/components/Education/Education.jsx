@@ -81,6 +81,14 @@ const Education = () => {
                   sololearn - 2025
                 </p>
               </li>
+              <li>
+                <a href='/assets/images/certificates/IntroductionToC.jpg' target='_blank'>
+                  Introduction to C#
+                </a>
+                <p>
+                  sololearn - 2026
+                </p>
+              </li>
             </ul>
           </div>
       </div>
