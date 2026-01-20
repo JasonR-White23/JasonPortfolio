@@ -12,7 +12,6 @@ const Skills = () => {
             </h1>
 
             <div className="skills-content">
-
                 <div className="skills-list-container">
                     <ul>
                         <li>
