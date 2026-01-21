@@ -10,7 +10,7 @@ const AboutMe = () => {
           </h1>
           <hr/>
 
-          <img src='/assets/images/jason-01.jpeg' alt='A photo of myself on a restaurant patio' class="picture"/>
+          <img src='/assets/images/jason-01.jpeg' alt='Myself on a restaurant patio' class="picture"/>
           <div className="about-content">
           
             <p>

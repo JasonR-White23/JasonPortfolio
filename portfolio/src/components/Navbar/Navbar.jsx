@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
-import AboutMe from "../AboutMe/AboutMe";
+
 
 const Navbar = () => {
 
