@@ -18,17 +18,59 @@ const Education = () => {
 
           <div className="education-content">
             <ul>
-              <li>
-                Full Stack Web Development
-                <p>
-                  Robertson College - 2023
-                </p>
-              </li>
-              <li>
+              <li className="program">
                 High School Diploma
                 <p>
                   Sunrise School - 2017
                 </p>
+              </li>
+              <li className="program">
+                Full Stack Web Development
+                <p>
+                  Robertson College - 2023
+                </p>
+                <div className="course-list-container">
+                  <ul>
+                    <li className="course">
+                      ~ Introduction to IT
+                    </li>
+                    <li className="course">
+                      ~ Web Development Basics
+                    </li>
+                    <li className="course">
+                      ~ Structured Programming in Java
+                    </li>
+                    <li className="course">
+                      ~ Object Oriented Programming
+                    </li>
+                    <li className="course">
+                      ~ Inheritance and Pilymorphism
+                    </li>
+                    <li className="course">
+                      ~ Relational Databases and SQL
+                    </li>
+                  </ul>
+                  <ul>
+                    <li className="course">
+                      ~ Version Control with Git and GitHub
+                    </li>
+                    <li className="course">
+                      ~ C# Programming
+                    </li>
+                    <li className="course">
+                      ~ .NET Core 2.0
+                    </li>
+                    <li className="course">
+                      ~ ASP .NET Core
+                    </li>
+                    <li className="course">
+                      ~ Front End Framework
+                    </li>
+                    <li className="course">
+                      ~ Software Testing and Quality Assurance
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
