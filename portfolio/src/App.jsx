@@ -6,6 +6,7 @@ import Education from './components/Education/Education';
 import Navbar from './components/Navbar/Navbar';
 import Skills from './components/Skills/Skills';
 import ContactMe from './components/ContactMe/ContactMe';
+import Services from './components/Services/Services';
 import './App.css';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/education" element={<Education />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contactme" element={<ContactMe />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
     </>
   )
