@@ -30,6 +30,10 @@
 
 @media (max-width: 769px) {
 
+    .skills-wrapper {
+        padding-bottom: 60px;
+    }
+
     .skills-list-container {
         display: block;
         margin-left: 25%;

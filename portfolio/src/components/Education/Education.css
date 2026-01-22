@@ -79,3 +79,21 @@ a:hover {
 a::after {
     color: grey;
 }
+
+@media (max-width: 820px) {
+
+    .education-content {
+        display: inline-block;
+        text-align: left;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .list {
+        margin: 0 20px;
+    }
+
+    .list li {
+        padding: 3px;
+    }
+}

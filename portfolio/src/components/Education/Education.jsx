@@ -30,7 +30,7 @@ const Education = () => {
                   Robertson College - 2023
                 </p>
                 <div className="course-list-container">
-                  <ul>
+                  <ul className="list">
                     <li className="course">
                       ~ Introduction to IT
                     </li>
@@ -50,7 +50,7 @@ const Education = () => {
                       ~ Relational Databases and SQL
                     </li>
                   </ul>
-                  <ul>
+                  <ul className="list">
                     <li className="course">
                       ~ Version Control with Git and GitHub
                     </li>
